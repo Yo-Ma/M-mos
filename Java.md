@@ -438,6 +438,7 @@ Notre fichier _**Voiture.java**_, qui contient notre classe Voiture (avec ses at
 | double   | 8                                   | 0.0               | Ensemble des nombres [−1,79769313486231570 × 10³⁰⁸ .. −4,94065645841246544 × 10⁻³²⁴], 0, [4,94065645841246544 × 10⁻³²⁴ .. 1,79769313486231570 × 10³⁰⁸]|
 | char     | 2                                   | '\u0000'          | Ensemble des valeurs Unicode (valeurs de U+0000 à U+FFFF, 4 chiffres obligatoires après '\u') Les 128 premiers caractères sont les codes ASCII et se notent entre apostrophes : 'a', '1', '\, '\n'.|
 | boolean  | Un seul bit suffit*                 | false             | true, false      |
+
 \* mais on réserve souvent un octet pour les stocker.
 
 
