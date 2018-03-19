@@ -23,9 +23,9 @@ Télécharger un projet existant
     $ git init
     
 Initialiser un projet dans un répértoire existant :
-    
-    $ git init
+
     $ cd [NOM_DU_REPERTOIRE]
+    $ git init
     $ git remote add origin [URL_DU_DEPOT]
     $ git add .
     $ git commit -m 'First commit'
@@ -43,7 +43,7 @@ Récupérer l'état actuel des fichiers dans un dossier git (apparaissent les fi
 Ajouter le(s) élément(s) dans la liste du suivi de version. Ils seront ajoutés au HEAD mais pas encore dans le dépôt distant.
 
     $ git add [NOM DU/DES FICHIER/S]
-    $ git add .         => Ajoute tous les fichiers modifiés
+    $ git add .         => Ajoute tous les fichiers ( même ceux non connus de git, git add -u pour ajouter les fichiers modifiés )
 
 
 Enregistrer et nomme (via -m "") les changements effectués
