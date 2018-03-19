@@ -43,7 +43,7 @@ Récupérer l'état actuel des fichiers dans un dossier git (apparaissent les fi
 Ajouter le(s) élément(s) dans la liste du suivi de version. Ils seront ajoutés au HEAD mais pas encore dans le dépôt distant.
 
     $ git add [NOM DU/DES FICHIER/S]
-    $ git add .         => Ajoute tous les fichiers ( même ceux non connus de git, git add -u pour ajouter les fichiers modifiés )
+    $ git add .         => Ajoute tous les fichiers ( même ceux non connus de git, git add -u pour ajouter les fichiers modifiés )
 
 
 Enregistrer et nomme (via -m "") les changements effectués
@@ -111,7 +111,7 @@ Récupérer et fusionner les changements distants
 Montrer les différences entre l'état actuel local et un état 'committé'
 
     $ git diff
-    $ git diff [BRANCHE_SOURCE] [BRANCHE_CIBLE]          => Après avoir fusionné les changements, en avoir un aperçu 
+    $ git diff [BRANCHE_SOURCE] [BRANCHE_CIBLE]  => Après avoir fusionné les changements, en avoir un aperçu 
    
       
 Comparer les fichiers indexés et le dernier instantané 
@@ -137,7 +137,7 @@ La branche master est la branche par défaut._
 Créer une nouvelle branche
 
     $ git branch [NOM_DE_LA_BRANCHE]
-L'option -b permet, dans la foulée, de pointer 'HEAD' sur la branche nouvelle créée
+_L'option -b permet, dans la foulée, de pointer 'HEAD' sur la branche nouvelle créée_
 
 On crée ainsi un nouveau contexte, indépendant de la branche "master". 
 Il sera, ensuite, possible de les fusionner 'merging'.
@@ -172,7 +172,7 @@ Annuler les changements locaux
 Cela remplacera les changements dans votre arbre de travail avec le dernier contenu du HEAD. 
 Les changements déjà ajoutés à l'index, aussi bien que les nouveaux fichiers, seront gardés.
 
-Si à la place, l'on soufaite supprimer tous les changements et validations locaux :
+Si à la place, l'on souhaite supprimer tous les changements et validations locaux :
 Il faut récupérer le dernier historique depuis le serveur...
 
     $ git fetch origin
@@ -193,7 +193,7 @@ Supprimer du répértoire local un ou plusieurs éléments, et notifier git de c
 Fusionner la branche dans laquelle on travaille avec la branche master
 
     $ git merge 
-    $ git merge [NOM_DE_LA_BRANCHE]         => pour fusionner une autre branche avec la branche active (par exemple master)
+    $ git merge [NOM_DE_LA_BRANCHE]  => pour fusionner une autre branche avec la branche active (par exemple master)
 
  
  
