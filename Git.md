@@ -218,16 +218,16 @@ Configurer son nom d'utilisateur et son email
 ## Liens utiles
 
 **Guides :** \
-[Git Community Book] (http://book.git-scm.com/fr) \
-[Pro Git] (http://progit.org/book/) \
-[Think like a git] (http://think-like-a-git.net/) \
-[GitHub Help] (http://help.github.com/) \
-[A Visual Git Guide] (http://marklodato.github.com/visual-git-guide/index-en.html)
+[Git Community Book](http://book.git-scm.com/fr) \
+[Pro Git](http://progit.org/book/) \
+[Think like a git](http://think-like-a-git.net/) \
+[GitHub Help](http://help.github.com/) \
+[A Visual Git Guide](http://marklodato.github.com/visual-git-guide/index-en.html)
 
 **Clients graphiques :** \
-[GitX (L) (OSX, open source)] (http://gitx.laullon.com/) \
-[Tower (OSX)] (http://www.git-tower.com/) \
-[Source Tree (OSX, free)] (http://www.sourcetreeapp.com/) \
-[GitHub for Mac (OSX, free)] (http://mac.github.com/) \
-[GitBox (OSX)] (https://itunes.apple.com/gb/app/gitbox/id403388357?mt=12) \
-[Git Extensions (WIN, open source)] (https://code.google.com/p/gitextensions/) 
+[GitX (L) (OSX, open source)](http://gitx.laullon.com/) \
+[Tower (OSX)](http://www.git-tower.com/) \
+[Source Tree (OSX, free)](http://www.sourcetreeapp.com/) \
+[GitHub for Mac (OSX, free)](http://mac.github.com/) \
+[GitBox (OSX)](https://itunes.apple.com/gb/app/gitbox/id403388357?mt=12) \
+[Git Extensions (WIN, open source)](https://code.google.com/p/gitextensions/) 
